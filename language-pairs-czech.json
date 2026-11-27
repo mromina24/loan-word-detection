@@ -1,0 +1,34 @@
+{
+    "Czech-German" : {
+        "target" :  {
+            "name" : "Czech",
+            "epi" : "ces-Latn",
+            "gtrans" : "cs",
+            "unicode" : "Latin"
+        },
+        "source" : {
+            "name" : "German",
+            "epi" : "deu-Latn",
+            "gtrans" : "de",
+            "unicode" : "Latin"
+        },
+        "wiki" : "https://en.m.wiktionary.org/wiki/Category:Czech_terms_borrowed_from_German",
+        "loan-frac" : ".1"
+    },
+    "Czech-English" : {
+        "target" :  {
+            "name" : "Czech",
+            "epi" : "ces-Latn",
+            "gtrans" : "cs",
+            "unicode" : "Latin"
+        },
+        "source" : {
+            "name" : "English",
+            "epi" : "eng-Latn",
+            "gtrans" : "en",
+            "unicode" : "Latin"
+        },
+        "wiki" : "https://en.m.wiktionary.org/wiki/Category:Czech_terms_borrowed_from_English",
+        "loan-frac" : ".1"
+    }
+}
