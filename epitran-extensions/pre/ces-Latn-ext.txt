@@ -1,0 +1,31 @@
+::voiceless:: = p|t|ť|k|f|s|š|c|č|ch
+::voiced:: = b|d|ď|g|v|z|ž|h|dž
+
+% 1. Word-final obstruent devoicing (e.g., děd -> dět, keř -> keř_voiceless)
+b -> p / _ #
+d -> t / _ #
+ď -> ť / _ #
+g -> k / _ #
+v -> f / _ #
+z -> s / _ #
+ž -> š / _ #
+h -> ch / _ #
+
+% 2. Regressive voicing assimilation (voiced before voiceless -> voiceless)
+b -> p / _ (::voiceless::)
+d -> t / _ (::voiceless::)
+ď -> ť / _ (::voiceless::)
+g -> k / _ (::voiceless::)
+v -> f / _ (::voiceless::)
+z -> s / _ (::voiceless::)
+ž -> š / _ (::voiceless::)
+h -> ch / _ (::voiceless::)
+
+% 3. Regressive voicing assimilation (voiceless before voiced obstruents other than v/ř -> voiced)
+p -> b / _ (b|d|ď|g|z|ž|h|dž)
+t -> d / _ (b|d|ď|g|z|ž|h|dž)
+ť -> ď / _ (b|d|ď|g|z|ž|h|dž)
+k -> g / _ (b|d|ď|g|z|ž|h|dž)
+s -> z / _ (b|d|ď|g|z|ž|h|dž)
+š -> ž / _ (b|d|ď|g|z|ž|h|dž)
+ch -> h / _ (b|d|ď|g|z|ž|h|dž)

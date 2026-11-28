@@ -1,0 +1,11 @@
+% Czech post-processing rules disabled by the repo extension.
+%
+% The stock epitran post-rules for ces-Latn (palatalization, devoicing, voicing)
+% run AFTER the map and re-voice word-initial stops (e.g. třešeň -> dr̝eʃeɲ),
+% undoing the orthography-level rules in pre/ces-Latn-ext.txt.
+%
+% Devoicing / voicing / palatalization are instead handled by:
+%   - pre/ces-Latn-ext.txt  (orthography-level assimilation rules)
+%   - map/ces-Latn-ext.csv  (incl. palatal digraphs such as dě->ɟɛ, ti->cɪ)
+%
+% This file is intentionally empty of rules so the stock post-rules are not applied.
